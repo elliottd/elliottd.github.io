@@ -58,7 +58,7 @@
                     </li>
                     <li>
                         <a href="service.html">Service</a>
-                    </li
+                    </li>
                 </ul>
             </div>
             <!-- /.navbar-collapse -->
@@ -68,32 +68,52 @@
 
     <!-- Page Content -->
     <div class="container">
-
 	  <div class='col-md-8'>
-	     <h4>Current Students</h4>
-
-	     <a href="https://e-bug.github.io/">Emanuele Bugliarello</a> <br/>
-	     Elham Pezhhan
-	     
-	     <h4>Alumni</h4>
-	     <a href="https://www.emielvanmiltenburg.nl/">Emiel van Miltenburg</a> (Ph.D 2019; Now Assistant Professor at Tilburg University)<br/>
-	     Mitja Nikolaus	  
-             <hr/>
-
-	     <h4>Prospective Postdocs</h4>
-	     I am currently <a href="https://di.ku.dk/english/about/vacancies/postdoc-of-multimodal-machine-learning/">hiring a postdoc</a> to work on multimodal machine learning with medical record data. This is a 30 month position in Denmark and the deadline for applications is 15 October 2020.
-
-	     <h4>Prospective PhD Students</h4>
-	     I do <b>not</b> currently have any openings for PhD students.
-
-	     <h4>Prospective Interns</h4>
-	     I do <b>not</b> currently have any openings for internships.
-
-	     <h4>Students in Copenhagen</h4>
-	     <p>If you are looking for a project supervisor, please get in touch with me. I am most likely to supervise a project that is a good fit with my <a href="lamp.html">research interests</a>.</p>
-
-          </div>
-
+		<h3>Multimodal Machine Translation</h3>
+		<p>
+		This page keeps track of published results for English-German mutlimodal machine translation in the <a href="https://www.aclweb.org/anthology/W16-3210/">Multi30K dataset</a>. You can <a href="https://github.com/multi30k/dataset">download the official version</a> of the dataset from Github. 
+		</p>
+	  </div>
+	  <div class='col-md-8'>
+		<p>Request updates with a <a href="https://github.com/elliottd/elliottd.github.io/issues">pull request</a>.</p>
+		<style type="text/css">
+		.tg  {border-collapse:collapse;border-color:#ccc;border-spacing:0;}
+		.tg td{background-color:#fff;border-color:#ccc;border-style:solid;border-width:1px;color:#333;
+		  font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;word-break:normal;}
+		.tg th{background-color:#f0f0f0;border-color:#ccc;border-style:solid;border-width:1px;color:#333;
+		  font-family:Arial, sans-serif;font-size:14px;font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+		.tg .tg-0w8i{font-size:100%;text-align:left;vertical-align:top}
+		.tg .tg-0lax{text-align:left;vertical-align:top}
+		.tg .tg-0lax{text-align:left;vertical-align:top;max-width:450px;}
+		</style>
+		<table class="tg">
+		<thead>
+		  <tr>
+		    <th class="tg-0lax"></th>
+		    <th class="tg-0lax">Model</th>
+		    <th class="tg-0lax">BLEU</th>
+		    <th class="tg-0lax">Meteor</th>
+		    <th class="tg-0lax">Short description</th>
+		  </tr>
+		</thead>
+		<tbody>
+		  <tr>
+		    <td class="tg-0lax">1.</td>
+		    <td class="tg-0w8i"><a href="https://tel.archives-ouvertes.fr/tel-02309868/document" target="_blank">Caglayan 2019</a></td>
+		    <td class="tg-0lax">39.4</td>
+		    <td class="tg-0lax">58.7</td>
+	            <td class="tg-0lax">RNN with decoder initialization from ResNet-50 pooled image features</td>
+		  </tr>
+		  <tr>
+		    <td class="tg-0lax">2.</td>
+		    <td class="tg-0lax"><a href="https://tel.archives-ouvertes.fr/tel-02309868/document" target="_blank" rel="noopener noreferrer">Caglayan 2019</a></td>
+		    <td class="tg-0lax">39.0</td>
+		    <td class="tg-0lax">58.5</td>
+		    <td class="tg-0lax">RNN with encoder and decoder initialization from ResNet-50 pooled image features</td>
+		  </tr>
+		</tbody>
+		</table>
+	  </div>
     </div>
     <!-- /.container -->
     <!-- jQuery -->
