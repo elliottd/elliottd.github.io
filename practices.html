@@ -44,8 +44,13 @@
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav">
-                    <li>
-                        <a href="lamp.html">LAMP</a>
+		    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">LAMP <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+		            <li><a href="lamp_about.html">About</a></li>
+                            <li><a href="lamp_publications.html">Publications</a></li>
+                            <li><a href="lamp_reading_group.html">Reading group</a></li>
+                        </ul>
                     </li>
                     <li>
                         <a href="publications.html">Papers</a>
@@ -73,11 +78,19 @@
     <div class="container">
 
 	  <div class='col-md-8'>
-	     <h4>Writing Papers</h4>
-
-	         <ul>
-                   <li>I like my papers to have a dedicate Problem Statement before we start to describe our new contribution. A well-written Problem Statement makes it more likely that the reader is clear about the task we are working on and assumptions about the data. I learned about the importance of this section from Mirella Lapata (<a href="https://arxiv.org/pdf/1603.07252.pdf">Example 1</a>) and used it in Section 2 of the IJCNLP paper (<a href="https://www.aclweb.org/anthology/I17-1014/">Example 2</a>) but there are other examples, such as Section 2.1 (<a href="https://www.aclweb.org/anthology/P05-1012.pdf">Example 3</a>) or Section 3 — Section 3.1 (<a href="https://www.aclweb.org/anthology/D16-1044.pdf">Example 4</a>).
-                 </ul>
+			<h2>Common Practices</h2>
+				<p>This page is a living list of our common practices in the group.</p>
+				<h3>Writing Papers</h4>
+					<h4>Structure of an Introduction</h4>
+						<p>There is no one <i>true</i> way to write the Introduction of a paper. This structure outlined here is based on <a href="https://homepages.inf.ed.ac.uk/sgwater/writing/content.html">Sharon Goldwater's notes on Writing Research Papers</a>.
+						<ul>
+							<li>Situate: What is the overall context of the work? Is there an overarching theoretical or practical context?</li>
+							<li>Open problem: What is the specific open problem studied in this paper? Why is it important?</li>
+							<li>Approach: Briefly, how do we approach the open problem? Is there any motivation for this approach?</li>
+							<li>Findings: If we conducted any experiments, what are the main findings? Why are these findings important?
+						</ul>
+					<h4>Problem Statements</h4>
+						<p>A well-written Problem Statement makes it easier for the reader to understand the task we are working on, and any assumptions about the data and evaluation. I learned about the importance of this section from <a href="https://homepages.inf.ed.ac.uk/mlap">Mirella Lapata</a> (<a href="https://arxiv.org/pdf/1603.07252.pdf">Example 1</a>) and used it in Section 2 of the IJCNLP paper (<a href="https://www.aclweb.org/anthology/I17-1014/">Example 2</a>) but there are other examples, such as Section 2.1 (<a href="https://www.aclweb.org/anthology/P05-1012.pdf">Example 3</a>) or Section 3 — Section 3.1 (<a href="https://www.aclweb.org/anthology/D16-1044.pdf">Example 4</a>).</p>
 
           </div>
 
